@@ -50,7 +50,7 @@ fun refresh_callback ()
 	#
 	logo.image = Image("logo_transparent_switch.png");
 	logo.sprite = Sprite(logo.image);
-	logo_min_opacity = 0.5;
+	logo_min_opacity = 0.9;
 	logo.sprite.SetX (Window.GetX() + Window.GetWidth()  / 2 - logo.image.GetWidth()  / 2);
 	logo.sprite.SetY (Window.GetY() + Window.GetHeight() / 2 - logo.image.GetHeight() / 2);
 	logo.sprite.SetZ (10);
