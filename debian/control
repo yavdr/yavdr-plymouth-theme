@@ -1,7 +1,7 @@
 Source: yavdr-plymouth-theme
 Section: x11
 Priority: optional
-Maintainer: Gerald Dachs <gda@dachsweb.de>
+Maintainer: Frank Neumann <fnu@yavdr.org>
 Build-Depends: debhelper (>= 7.3.15ubuntu3), dpkg-dev (>= 1.16.0~ubuntu4)
 Standards-Version: 3.8.3.0
 
