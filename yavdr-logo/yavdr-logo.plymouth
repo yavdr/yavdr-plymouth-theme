@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=yaVDR Logo
+Description=A theme that features a blank background with a yaVDR logo.
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/yavdr-logo
+ScriptFile=/lib/plymouth/themes/yavdr-logo/yavdr-logo.script
