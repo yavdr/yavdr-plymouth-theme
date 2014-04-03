@@ -2,12 +2,12 @@ Source: yavdr-plymouth-theme
 Section: x11
 Priority: optional
 Maintainer: Frank Neumann <fnu@yavdr.org>
-Build-Depends: debhelper (>= 7.3.15ubuntu3), dpkg-dev (>= 1.16.0~ubuntu4)
-Standards-Version: 3.8.3.0
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.1
 
 Package: yavdr-plymouth-theme
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, plymouth, plymouth-label
+Depends: ${misc:Depends}, plymouth, plymouth-label
 Provides: plymouth-theme
 Replaces: plymouth (<< 0.8.1-1~)
 Description: graphical boot animation and logger - yavdr script theme
