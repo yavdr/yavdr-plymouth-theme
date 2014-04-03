@@ -20,9 +20,11 @@ case "$1" in
     configure)
 	update-alternatives \
 		--install /lib/plymouth/themes/default.plymouth default.plymouth \
-		/lib/plymouth/themes/yavdr-script/yavdr-script.plymouth 100 \
+		/lib/plymouth/themes/yavdr-logo/yavdr-logo.plymouth 100 \
 		--slave /lib/plymouth/themes/default.grub default.plymouth.grub \
-		/lib/plymouth/themes/yavdr-script/yavdr-script.grub
+		/lib/plymouth/themes/yavdr-logo/yavdr-logo.grub
+	update-alternatives \
+		--set default.plymouth /lib/plymouth/themes/yavdr-logo/yavdr-logo.plymouth
 
 	if which update-initramfs >/dev/null 2>&1
 	then

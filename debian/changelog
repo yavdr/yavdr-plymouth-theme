@@ -1,3 +1,9 @@
+yavdr-plymouth-theme (0.1.0-0yavdr0~precise) precise; urgency=medium
+
+  * new upstream snapshot: yavdr-logo theme
+
+ -- Lars Hanisch <dvb@flensrocker.de>  Thu, 03 Apr 2014 23:00:36 +0200
+
 yavdr-plymouth-theme (0.0.2-0yavdr0~natty) natty; urgency=low
 
   * initial release

@@ -1,4 +1,4 @@
-Upstream Homepage:
+Package Homepage:
     https://github.com/yavdr/yavdr-plymouth-theme
 
 Upstream Author(s):
@@ -6,6 +6,7 @@ Upstream Author(s):
 
 Debian Maintainer(s):
     Frank Neumann <fnu at yavdr dot org>
+    Lars Hanisch <dvb@flensrocker.de>
 
 Copyright:
     (C) 2011 Frank Neumann
